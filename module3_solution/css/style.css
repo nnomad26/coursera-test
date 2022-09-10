@@ -1,0 +1,61 @@
+* {
+  box-sizing: border-box;
+  margin: 0
+  padding: 0;
+}
+
+body {
+  font-family: Helvetica, sans-serif;
+  font-size: 100%;
+  color: #000000;
+ }
+
+
+/* Navigation bar */
+
+#header-nav {
+  background-color: #003C71;
+  border-radius: 0;
+  border: 0;
+}
+
+.navbar-brand {
+  padding-top: 25px;
+}
+
+.navbar-brand h1 { /* LLC Name */
+  color: white;
+  font-weight: bold;
+  
+}
+.navbar-brand a:focus, .navbar-brand a:hover {
+  text-decoration: none;
+}
+
+#nav-list a {
+	color: white;
+	text-align: center;
+}
+
+#nav-list a:hover {
+	background-color: #8243d6;
+}
+
+.navbar-toggle {
+	position:relative;
+	float:right;
+}
+
+@media(min-width: 768px){
+	.navbar-toggle {
+		display: none;
+	}
+}
+
+.container-fluid {
+  color: #000;
+  background-color: #E8E8E8;
+  margin: 15px;
+  
+  
+}
